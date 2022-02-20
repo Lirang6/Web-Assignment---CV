@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="StyleSheet.css">
+    <link href='https://fonts.googleapis.com/css?family=Antic' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: 'Antic';font-size: 22px;
+        }
+    </style>
+    <script>
+        <!--
+        function validateForm() {
+            var phone = document.forms["myForm"]["phone"].value;
+            var msg = document.forms["myForm"]["msg"].value;
+            var fname = document.forms["myForm"]["fname"].value;
+            var lname = document.forms["myForm"]["lname"].value;
+            if (!validatePhone(phone)){
+                alert("Please enter a valid phone number");
+                return false;
+            } else {
+                window.open('mailto:liran.goldstein@post.idc.ac.il' + '?subject=Contact from LiranGoldstein.com :' + fname + ' ' + lname + ' ' + phone + '&body=' + msg);
+                return true;
+            } }
+
+        function validatePhone(input_str) {
+            var ph = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im;
+
+            return ph.test(input_str);
+        }
+        -->
+    </script>
+    <title>LiranGoldstein</title>
+</head>
+<body>
+<img src="Liran.png" width=100% alt="com">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="main.html">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link" href="#Hobbies">Hobbies</a>
+                <a class="nav-link" href="#Education">Education</a>
+                <a class="nav-link" href="#Employment">Employment</a>
+                <a class="nav-link" href="#Contact">Contact Me</a>
+            </div>
+        </div>
+    </div>
+</nav>
+&nbsp
+<div class="container">
+<div class="row">
+    <div class="col">
+        <h1>About me</h1>
+        <p>Hi, I'm Liran, welcome to my website!</p>
+        <p>I'm 24 years old from Raanana, Israel. I was born in USA Saint Louis, Missouri but I came to Israel when I was 2 years old so I was grown and raised in Israel. Right now I'm a C.S Student in IDC Hertzliya.</p>
+    </div>
+    <div class="col">
+        <img src="Liranmain.png"  alt="liran" width="300">
+    </div>
+</div>
+</div>
+<br>
+<div class="container" id="Hobbies">
+    <div class="row">
+        <div class="col">
+            <h1>Hobbies</h1>
+            <p>If I were to pick one favourite hobby of mine out of the many I have, I will definitely pick Basketball.
+                I played basketball since I was 5 years old, I guess you can say I was born a baller and since I remember myself I am a die hard fan of Maccabi Tel Aviv basketball team. In addition,
+            one of my favorite thing to do is skiing, my first time skiing was in 2016 and since then me and my family are trying
+             to go skiing once a year. Another thing I like to do is hiking, the feeling of fresh air with a view is amazing.</p>
+        </div>
+        <div class="col">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="carousel/11.JPG" class="rounded d-block w-100 img-thumbnail" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="carousel/22.JPG" class="rounded d-block w-100 img-thumbnail" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="carousel/33.jpg" class="rounded d-block w-100 img-thumbnail" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="carousel/44.jpg" class="rounded d-block w-100 img-thumbnail" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="carousel/55.jpg" class="rounded d-block w-100 img-thumbnail" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="carousel/66.jpg" class="rounded d-block w-100 img-thumbnail" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="carousel/777.JPG" class="rounded d-block w-100 img-thumbnail" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="carousel/88.JPG" class="rounded d-block w-100 img-thumbnail" alt="...">
+                                </div>
+                           </div>
+                        </div>
+        </div>
+    </div>
+    <br>
+    <div class="row" id="Education">
+        <div class="col">
+            <h1>Education</h1>
+            <p> <strong>IDC Herzilya — B.SC IN Computer Science — 2019-PRESENT:</strong><br>
+                Currently, a 2nd year student. As part of the curriculum gained experience in
+                programming languages as Java, Python, C, HTML. <br>
+                Main achievement:<br>
+                - GPA 92.<br>
+                - Acceptance and Participating in the Excellence program<br>
+                </p>
+        </div>
+        <div class="col">
+            <br>
+            <img src="idc.png" alt="idc" width="200">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <p><strong>MOR METRO-WEST High school — 2011-2014:</strong><br>
+                Major in computer science and geography. Was playing for the basketball high school
+                team and a part of the sport class.</p>
+        </div>
+        <div class="col">
+            <br>
+            <img src="mor.jpg" alt="mor" width="400">
+        </div>
+    </div>
+    <div class="row" id="Employment">
+        <div class="col">
+            <br>
+            <h1>Employments</h1>
+            <p> <strong>Amdocs IT service — 2018-2019 </strong> <br>
+                Managed local site “GO4IT” providing Hardware/Software support at Amdocs Raanana.
+                The support included hardware installation troubleshooting / solving from remote and on
+                site for the company local employees. Implementing IT organizational changes ensuring
+                continuity and meeting company SLA. Monitoring plan vs. actual KPI’s. </p>
+
+        </div>
+        <div class="col">
+            <br>
+            <br>
+            <img src="amdocs.png" alt="amdocs" width="300">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <p>
+                <strong> Recruitment control, ‘MITAV’ unit, IDF — 2015-2018</strong><br>
+                Conducting inspections and regulation on the IDF applicant database, in particular
+                locating irregularities in the system and cross checking sensitive information with other
+                units in and outside the IDF. The job demanded working on multiple tasks simultaneously
+                and using, among others, Microsoft SharePoint for site creating and managed databases
+                with SQL.
+                As part of my service, I received the lieutenant colonelcitation for 2017.
+            </p>
+        </div>
+        <div class="col">
+            <img src="idf.png" alt="idf" width="200">
+        </div>
+    </div>
+    <div class="row" id="Contact">
+        <div class="col">
+            <br>
+            <h1>Contact Me</h1>
+            <h3>Feel free to contact me about everything!</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <form name="myForm"  onsubmit="return validateForm()" method="post">
+                            <input type="text" placeholder="First Name" name="fname"><br>
+                            <input type="text" placeholder="Last Name" name="lname"><br>
+                            <input type="text" placeholder="Phone Number" name="phone"><br>
+                            <textarea type="text" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message" name="msg"></textarea><br>
+                            <input type="submit" value="Submit"><br>
+                        </form>
+                    </div>
+                    <div class="col">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
